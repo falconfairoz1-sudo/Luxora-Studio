@@ -1194,8 +1194,12 @@ textarea {
     padding: 0.85rem 0.95rem 1.5rem;
   }
 
+  .hero {
+    grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+  }
+
   .section-content.split {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr minmax(320px, 1fr);
   }
 
   .intro-cards {
@@ -1206,7 +1210,7 @@ textarea {
   .contact-grid,
   .process-grid,
   .project-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
   }
 
   .hero-image {
@@ -1248,8 +1252,18 @@ textarea {
   }
 
   .hero {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 1fr);
     gap: 1.4rem;
+  }
+
+  .section-content.split {
+    grid-template-columns: 1fr minmax(280px, 1fr);
+  }
+
+  .contact-grid,
+  .process-grid,
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
   }
 
   .hero-image {
