@@ -1,0 +1,23 @@
+{
+  "name": "luxora-studio-website",
+  "version": "1.0.0",
+  "description": "Luxora Studio - Luxury interior design, 3D visualization and turnkey execution",
+  "private": true,
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "build": "echo \"No build required\"",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "interior design",
+    "luxury design",
+    "3D visualization",
+    "home design"
+  ],
+  "author": "Luxora Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/luxora-studio.git"
+  }
+}

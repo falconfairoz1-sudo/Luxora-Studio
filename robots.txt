@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Sitemap: https://luxora.studio/sitemap.xml
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
