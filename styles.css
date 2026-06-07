@@ -1194,10 +1194,6 @@ textarea {
     padding: 0.85rem 0.95rem 1.5rem;
   }
 
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
   .section-content.split {
     grid-template-columns: 1fr;
   }
